@@ -18,5 +18,11 @@ public class BeforeGenericTester {
         bulldogs.addPlayer(mahomes);
         bulldogs.addPlayer(trout);
         bulldogs.addPlayer(messi);
+
+        bulldogs.matchResult(grizzlyBear, 100, 10);
+        bulldogs.matchResult(grizzlyBear, 5, 12);
+
+        System.out.println(bulldogs.ranking());
+        System.out.println(grizzlyBear.ranking());
     }
 }
