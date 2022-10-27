@@ -23,6 +23,5 @@ public class BeforeGenericTester {
         bulldogs.matchResult(grizzlyBear, 5, 12);
 
         System.out.println(bulldogs.ranking());
-        System.out.println(grizzlyBear.ranking());
     }
 }
